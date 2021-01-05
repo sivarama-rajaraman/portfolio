@@ -10111,3 +10111,8 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.row__year{
+  width: 100px;
+  text-align: center;
+}
