@@ -10031,8 +10031,9 @@ p.lead {
     left: 0;
     display: flex;
     flex-direction: column;
-    width: 17rem;
+    width: 18rem;
     height: 100vh;
+    overflow-y: auto;
   }
   #sideNav .navbar-brand {
     display: flex;
