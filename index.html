@@ -271,8 +271,12 @@
                             Windows, and Linux desktop computers with multiple NVIDIA GEFORCE GTX 1080 GPUs.
 
                         </p>
-                        <h3>Project title 1: Computer-Aided COVID-19+ Population Screening Using Chest X-Rays, CEB, LHNCBC, NLM</h3>
-                        <p> <b>Scientific Highlights: </b>Novel Coronavirus disease 2019 (COVID-19) is caused by the new Severe Acute Respiratory Syndrome 
+                        <h4 class="mt-5 mb-3">Project title 1: Computer-Aided COVID-19+ Population Screening Using Chest X-Rays, CEB, LHNCBC, NLM
+                        </h4>   
+                        <div class="flex-grow-1">
+                            <div><b>Scientific Highlights:</b> </div>
+                            <p>
+                            Scientific Highlights: </b>Novel Coronavirus disease 2019 (COVID-19) is caused by the new Severe Acute Respiratory Syndrome 
                             Coronavirus 2 (SARS-CoV-2) that originated in Wuhan in the Hubei province in China and has spread worldwide. 
                             The World Health Organization (WHO) declared the outbreak a pandemic on March 11, 2020. The disease is rapidly 
                             affecting worldwide population with statistics quickly falling out of date. As of April 12, 2020, 
@@ -283,9 +287,9 @@
                             other bacterial pathogens. In this project, we propose several measures to effectively detect COVID-19 
                             disease manifestations in Chest X-rays. 
 
-                        </p>
-                        <div><b>Related publications:</b></div>
-                        <section>
+                            </p>
+                            <div><b>Related publications:</b></div>
+                            <section>
                             <p>Rajaraman S, Sornapudi S, Alderson PO, Folio LR, Antani SK (2020) Analyzing inter-reader variability 
                                     affecting deep ensemble learning for COVID-19 detection in chest radiographs. 
                                     PLoS ONE 15(11): e0242301. https://doi.org/10.1371/journal.pone.0242301. </p>                              
@@ -300,7 +304,7 @@
                                 <p>Rajaraman S, Siegelman J, Alderson PO, Folio LS, Folio LR and Antani SK, "Iteratively Pruned Deep Learning 
                                     Ensembles for COVID-19 Detection in Chest X-Rays," in IEEE Access, vol. 8, pp. 115041-115050, 2020, 
                                     doi: 10.1109/ACCESS.2020.3003810.</p>  
-                                </section>
+                             </section>
                         </div>
                     </section>
                     
@@ -468,7 +472,8 @@
                         </h4>
                         <div class="flex-grow-1">
                             <div><b>Scientific Highlights:</b> </div>
-                            <p>In this study, we investigated the usage of deep CNN models for automatic detection of
+                            <p>
+                                In this study, we investigated the usage of deep CNN models for automatic detection of
                                 cardiomegaly in digital CXRs. We fine-tuned several deep CNN architectures to detect the
                                 presence of
                                 cardiomegaly in CXRs. Next, we introduced an alternative fine-tuning approach where we
@@ -617,9 +622,85 @@
                             </section>
                         </div>
                     </section>
+                    
+                    <section>
+                        <h4 class="mt-5 mb-3">Project title 8: Unified Modality-Specific Representation for Efficient Medical Image Analysis
+                        </h4>
+                        <div class="flex-grow-1">
+                            <div><b>Scientific Highlights:</b> </div>
+                            <p>Medical image analysis typically includes several visual tasks such as image enhancement, 
+                                segmentation, and classification. These tasks are often implemented through 
+                                separate deep learning models pretrained on large-scale natural images with visual
+                                characteristics different than medical images. This traditional approach for analysis
+                                is not efficient because it involves unnecessary training repetitions for each task and 
+                                requires each task to have a relatively large amount of annotated data. Therefore, we 
+                                believe new approaches need to be adopted for efficient medical image analysis. 
+                                Recognizing the increased interest in developing approaches that achieve high performance 
+                                with minimal resource utilization and amount of annotated data, in the first study, 
+                                we propose a multi-task approach, called unified modality-specific representation (U-Rep), 
+                                to enhance the analysis of medical image tasks with heterogeneous annotations. 
+                                The proposed U-Rep is a modality-specific approach that learns, using unlabeled data, 
+                                the features of a specific medical imaging modality. The trained modality-specific 
+                                U-Rep is then shared to simultaneously learn different target tasks with limited amounts
+                                of heterogeneous annotations. Our experimental results using two medical image datasets 
+                                show that the proposed approach improves the performance and generalization of the target tasks. 
+                                They also show that the proposed approach prevents unnecessary repetitions of training 
+                                task-specific models in isolation, which leads to a reduction in the training time and 
+                                parameters. We believe the proposed approach for analysis would tread a path toward 
+                                promising future research in medical image analysis, especially for tasks with limited 
+                                amounts of heterogeneous annotations. Medical images are acquired at different resolutions based 
+                                on clinical goals or available technology. In general, however, high-resolution images with ﬁne 
+                                structural details are preferred for visual task analysis. Recognizing this signiﬁcance, 
+                                several deep learning networks have been proposed to enhance medical images for reliable 
+                                automated interpretation. These deep networks are often computationally complex and require 
+                                a massive number of parameters, which restrict them to highly capable computing platforms 
+                                with large memory banks. In the second study, we propose an efﬁcient deep learning approach, 
+                                called Hydra, which simultaneously reduces computational complexity and improves performance. 
+                                The Hydra consists of a trunk and several computing heads. The trunk is a super-resolution 
+                                model that learns the mapping from low-resolution to high-resolution images. It has a simple 
+                                architecture that is trained using multiple scales at once to minimize a proposed 
+                                learning-loss function. We also propose to append multiple task-speciﬁc heads to the trained 
+                                Hydra trunk for simultaneous learning of multiple visualtasks in medical images. The Hydra is 
+                                evaluated on publicly available chest X-ray image collections to perform image enhancement, 
+                                lung segmentation, and abnormality classiﬁcation. Our experimental results support our 
+                                claims and demonstrate that the proposed approach can improve the performance of super-resolution 
+                                and visual task analysis in medical images at a remarkably reduced computational cost.
+
+                            </p>
+                            <div><b>Related publications:</b></div>
+                            <section>
+                                <P>Alzamzmi GA, Rajaraman S, Antani SK. Unified Representation Learning for Efficient Medical Image Analysis 2020, 
+                                    [Online] URL: https://arxiv.org/abs/2006.11223. </P>
+                                 <P>Alzamzmi GA, Rajaraman S, Antani SK. Accelerating Super-Resolution and Visual Task Analysis in 
+                                     Medical Images. Appl. Sci. 2020, 10, 4282.</P>   
+                            </section>
+                        </div>
+                    </section>
+                    
+                    <section>
+                        <h4 class="mt-5 mb-3">Project title 9: Radiology Preprocessor Course 
+                        </h4>
+                        <div class="flex-grow-1">
+                            <div><b>Scientific Highlights:</b> </div>
+                            <p>I am a member of the team offering the Radiology Preprocessor course. The main objective of the publicly 
+                                available multi-center radiology preprocessing (RP) course is to teach radiology preprocessors (RPs), the 
+                                basic principles of radiology modalities and how they provide required quantification in clinical trials 
+                                including target lesion selection and consistent measurement. RPs are sometimes referred to as "post-processors" 
+                                that measure lesions after or separate from radiologists required for clinical trials, or "scribes" commonly 
+                                assisting radiologists in private practice or centers without residents in measuring lesions, identifying 
+                                incidental findings while acting as worklist triage. Literature studies reveal that RP augmented radiologist 
+                                workflow can result in improved target lesion concordance with oncologists on patients in clinical trials, 
+                                faster radiologist recognition of clinical findings, resulting in earlier referring clinician notification. 
+                                We welcome feedback from core labs to optimize the educational value of the course. By request, we will be 
+                                adding more information and chest CT to include infectious diseases based on need for consistency in 
+                                labeling pathology for machine learning training. To help promote advances in Artificial Intelligence in 
+                                radiology, this course additionally helps bridge the gap between coders, engineers and radiologists.  
+                            </section>
+                        </div>
+                    </section>
 
                     <section>
-                        <h4 class="mt-5 mb-3">Project title 8: Performance assessment of data augmentation techniques
+                        <h4 class="mt-5 mb-3">Project title 10: Performance assessment of data augmentation techniques
                             toward
                             improving abnormality detection in chest radiographs
                         </h4>
@@ -993,7 +1074,7 @@
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <div class=" mb-3">9 Member of Technical Program Committee, 3rd International Conference on
+                        <div class=" mb-3">Member of Technical Program Committee, 3rd International Conference on
                             Computer Science
                             and Application Engineering (CSAE 2019) to be held during October 22 to 24, 2019 in Sanya,
                             China.
@@ -1003,13 +1084,128 @@
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <div class=" mb-3">9Member of Technical Program Committee, International Conference on
+                        <div class=" mb-3">Member of Technical Program Committee, International Conference on
                             Ubiquitous Intelligent
                             Systems (ICUIS 2020) to be held during 3-4, June 2020 in Shree Venkateshwara Hi-Tech
                             Engineering College, Tamil Nadu, India.
                         </div>
                     </div>
                     <div class="flex-shrink-0 row__year"><span class="text-primary">2019</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <div class=" mb-3">Member of Technical Program Committee, International Conference on Data Intelligence 
+                            and Cognitive Informatics (ICDICI 2020), to be held during 8-9, July 2020 at
+                            GITAM University, Bangalore, India.
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 row__year"><span class="text-primary">2019</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <div class=" mb-3">Member of Technical Program Committee, 3rd International Conference 
+                            on Computer Science & Cloud Computing, held during July 20-21, 2020 at Montreal, Canada.
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 row__year"><span class="text-primary">2020</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <div class=" mb-3">Member of Technical Program Committee, International Conference on Recent Trends 
+                            in Image Processing and Pattern Recognition, held at Aurangabad, Maharashtra, India, 
+                            in collaboration with the University of South Dakota, during January 03 - 04, 2020.
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 row__year"><span class="text-primary">2020</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <div class=" mb-3">Member of Review Committee, International Conference on Sentimental 
+                            Analysis and Deep Learning (ICSADL 2020) held on 2-3, April 2020, 
+                            in KGiSL Institute of Technology, Coimbatore, India.
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 row__year"><span class="text-primary">2020</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <div class=" mb-3">Member of Technical Program Committee, 3rd International conference on Image, 
+                            Video Processing and Artificial Intelligence (IVPAI 2020), held 
+                            in Shanghai, China, from 21-23, August 2020. 
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 row__year"><span class="text-primary">2021</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <div class=" mb-3">Member of Technical Program Committee, International Conference On 
+                            Sentimental Analysis And Deep Learning (ICSADL 2021), organized in association with 
+                            Tribhuvan University, Nepal, Prince of Songkla University, Thailand and RVS 
+                            Technical Campus, India, 18-19 June, 2021,| Thailand.
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 row__year"><span class="text-primary">2021</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <div class=" mb-3">Member of Technical Program Committee, 3rd Intelligent 
+                            Communication Technologies and Virtual Mobile Networks (ICICV 2021), 
+                            organized by Francis Xavier Engineering College, Tirunelveli, India, 
+                            from 04-06 February, 2021.
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 row__year"><span class="text-primary">2021</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <div class=" mb-3">Member of Technical Program Committee, Special track on Explainable 
+                            Machine Learning models in Medical Imaging, organized as a part of the 34th 
+                            IEEE CBMS International Symposium on Computer-Based Medical Systems, 
+                            held from June 7 – 9 2021, Aveiro, Portugal
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 row__year"><span class="text-primary">2021</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <div class=" mb-3">Member of Technical Program Committee, 4th International Conference on 
+                            Intelligent Communication Technologies and Virtual Mobile Networks (ICICV 2022), 
+                            organized by Francis Xavier Engineering College, Tirunelveli, India.       
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 row__year"><span class="text-primary">2021</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <div class=" mb-3">Member of Technical Program Committee, 2nd International Conference on Smart 
+                            Technologies For Smart Nation (SmartTechCon 2021) to be held at Universiti Putra Malaysia, 15-17 July 2021. 
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 row__year"><span class="text-primary">2021</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <div class=" mb-3">Member of Technical Program Committee, International Conference on  Artificial 
+                            Intelligence & Knowledge Processing 2021, organized by School of Business, Woxsen University,
+                            Telangana, Andhra Pradesh, India, April 24th, 2021.  
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 row__year"><span class="text-primary">2021</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <div class=" mb-3">Member of Technical Program Committee, International Work-Conference on Artificial 
+                            and Natural Neural Networks (IWANN 2021), to be held at Madeira, Portugal, 16-18 June 2021. 
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 row__year"><span class="text-primary">2021</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <div class=" mb-3">Member of Technical Program Committee, 2nd International Conference on 
+                            Deep Learning Theory and Applications (DeLTA 2021), online streaming, 7-9 July 2021. 
+                        </div>
+                    </div>                    
                 </div>
             </div>
         </section>
