@@ -10120,3 +10120,8 @@ section.resume-section .resume-section-content {
 .align-top{
   align-items: initial !important;
 }
+
+.resetspace {
+  height: auto;
+  min-height: 0px;
+}
